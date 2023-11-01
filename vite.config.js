@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://mern-house-rental-system.onrender.com',
+        target: 'mern-api-backend-99ar764jm-yasvanthikas-projects.vercel.app',
         secure: false,
       },
     },
